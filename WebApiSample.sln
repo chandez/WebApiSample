@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRestApi", "HttpRestApi\HttpRestApi.csproj", "{573F33F9-2130-4B43-B4B2-1D5997A009C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpRestApi", "HttpRestApi\HttpRestApi.csproj", "{573F33F9-2130-4B43-B4B2-1D5997A009C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRestApi.Core", "HttpRestApi.Core\HttpRestApi.Core.csproj", "{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpRestApi.Core", "HttpRestApi.Core\HttpRestApi.Core.csproj", "{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{AF98CE30-1B3D-454F-99C6-E4C9F189BCE2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
