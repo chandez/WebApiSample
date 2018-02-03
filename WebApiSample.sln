@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRestApi", "HttpRestApi\HttpRestApi.csproj", "{573F33F9-2130-4B43-B4B2-1D5997A009C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRestApi.Core", "HttpRestApi.Core\HttpRestApi.Core.csproj", "{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{573F33F9-2130-4B43-B4B2-1D5997A009C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573F33F9-2130-4B43-B4B2-1D5997A009C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573F33F9-2130-4B43-B4B2-1D5997A009C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573F33F9-2130-4B43-B4B2-1D5997A009C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F24E4B1-FDF8-42C7-9E37-C5B95589B97F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C189D576-5DDA-435A-8AFE-B53AF403F625}
+	EndGlobalSection
+EndGlobal
